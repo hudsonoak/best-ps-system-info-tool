@@ -61,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 #### Opção 3: Download Direto
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/isaacoolibama/system-info-tool/main/Get-SystemInfo.ps1" -OutFile "Get-SystemInfo.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hudson-oak/best-ps-system-info-tool/main/Get-SystemInfo.ps1" -OutFile "Get-SystemInfo.ps1"
 ```
 
 ### Execução
