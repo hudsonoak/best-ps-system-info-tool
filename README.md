@@ -61,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 #### Opção 3: Download Direto
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hudson-oak/best-ps-system-info-tool/main/Get-SystemInfo.ps1" -OutFile "Get-SystemInfo.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hudsonoak/best-ps-system-info-tool/refs/heads/main/Get-SystemInfo.ps1" -OutFile "Get-SystemInfo.ps1"
 ```
 
 ### Execução
@@ -78,7 +78,7 @@ powershell -ExecutionPolicy Bypass -File "Get-SystemInfo.ps1"
 
 #### Método 3: Execução Remota (Sem Download)
 ```powershell
-Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hudson-oak/best-ps-system-info-tool/main/Get-SystemInfo.ps1" -UseBasicParsing).Content
+Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/hudsonoak/best-ps-system-info-tool/refs/heads/main/Get-SystemInfo.ps1" -UseBasicParsing).Content
 ```
 
 ## 📊 Informações Coletadas
